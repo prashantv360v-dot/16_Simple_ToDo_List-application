@@ -12,9 +12,16 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: start;
+  justify-content: space-between;
   padding-top: 80px;
   color: #333;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
 
 /* Title and Subtitle */
@@ -144,6 +151,18 @@ p {
 /* Smooth fade-in for new todos */
 #todo-list li {
   animation: fadeIn 0.4s ease forwards;
+}
+
+footer{
+    background: rgb(53, 70, 106);
+    width: 100%;
+    height: 10vh;
+}
+footer p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.5rem;
 }
 
 @keyframes fadeIn {
